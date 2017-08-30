@@ -1,0 +1,37 @@
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <!-- A 'parent' preference, which enables/disables child preferences (below)
+         when checked/unchecked. -->
+    <Preference
+        android:capitalize="words"
+        android:defaultValue=""
+        android:inputType="textCapWords"
+        android:key="defaultLoc"
+        android:id="@+id/defaultLoc"
+        android:summary=""
+        android:maxLines="1"
+        android:selectAllOnFocus="true"
+        android:singleLine="true"
+        android:title="기본 위치" />
+
+    <!-- Allows the user to choose a ringtone in the 'notification' category. -->
+    <!-- NOTE: This preference will be enabled only when the checkbox above is checked. -->
+    <!-- NOTE: RingtonePreference's summary should be set to its value by the activity code. -->
+
+    <SwitchPreference
+        android:id="@+id/dustInfo"
+        android:defaultValue= "true"
+        android:key="dustInfo"
+        android:title="미세먼지 정보" />
+    <SwitchPreference
+        android:id="@+id/googleCalInfo"
+        android:defaultValue= "true"
+        android:key="googleCalInfo"
+        android:title="Google 캘린더 정보" />
+    <SwitchPreference
+        android:id="@+id/music"
+        android:defaultValue= "true"
+        android:key="music"
+        android:title="배경 음악 실행" />
+
+</PreferenceScreen>

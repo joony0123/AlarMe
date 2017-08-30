@@ -1,0 +1,20 @@
+<preference-headers xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <!-- These settings headers are only used on tablets. -->
+
+    <header
+        android:fragment="com.alarme.SettingsActivity$GeneralPreferenceFragment"
+        android:icon="@drawable/profile3"
+        android:title="    개인 정보" />
+
+    <header
+        android:fragment="com.alarme.SettingsActivity$NotificationPreferenceFragment"
+        android:icon="@drawable/ic_settings2"
+        android:title="    설정" />
+
+    <header
+        android:id="@+id/servTerminate"
+        android:icon="@drawable/power3"
+        android:title="    서비스 종료" />
+
+</preference-headers>

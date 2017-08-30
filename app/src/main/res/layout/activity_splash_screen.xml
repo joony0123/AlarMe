@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <TextView
+        android:id="@+id/logoText"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:textSize="20dp"
+        android:textColor="#454545"
+        android:gravity="center_horizontal"
+        android:text="A L A R M E"
+        android:layout_marginTop="18dp"
+        android:layout_below="@+id/imgLogo"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <com.wang.avi.AVLoadingIndicatorView
+        android:id="@+id/avi"
+        android:layout_width="50dp"
+        android:layout_height="wrap_content"
+        style="@style/AVLoadingIndicatorView"
+        android:visibility="visible"
+        android:gravity="center_horizontal"
+        app:indicatorName="LineScalePulseOutIndicator"
+        app:indicatorColor="#8BC34A"
+        android:layout_alignBottom="@+id/logoText"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="190dp"
+        android:layout_centerInParent="true"/>
+
+
+
+    <ImageView
+        android:id="@+id/imgLogo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="150dp"
+        android:src="@drawable/alarme" />
+
+</RelativeLayout>

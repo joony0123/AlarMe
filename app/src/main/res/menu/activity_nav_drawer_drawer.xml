@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_camera"
+            android:icon="@drawable/profile3"
+            android:title="개인 정보" />
+        <item
+            android:id="@+id/nav_gallery"
+            android:icon="@drawable/ic_settings2"
+            android:title="설정" />
+        <item
+            android:id="@+id/nav_slideshow"
+            android:icon="@drawable/power3"
+            android:title="서비스 종료" />
+
+    </group>
+</menu>
