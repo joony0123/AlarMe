@@ -1,7 +1,17 @@
 # AlarMe
-Personal Mobile Alarm Assistant App - Currently on Google Playstore
+Personal Mobile Alarm Assistant App in Korean - Currently on Google Playstore
 
-Please visit https://play.google.com/store/apps/details?id=com.alarme
+Using Text-to-Speech method, it informs you of
+
+- Today's weather
+- Temperature difference
+- Dust air condition level
+- Probability of raining today and when
+- Today's schedule from Google Calendar
+
+in voice with a short classic music, around 5 seconds after when the user dismisses his/her original innate alarm clock in the phone.
+
+Please visit the [Google Playstore page](https://play.google.com/store/apps/details?id=com.alarme)
 
 ## Sample Images 
 
